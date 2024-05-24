@@ -10,8 +10,8 @@ export const navbarItems = [
     icon: "fas fa-user",
   },
   {
-    name: "Projects",
-    href: "/projects",
+    name: "Services",
+    href: "/services",
     icon: "fas fa-briefcase",
   },
   {

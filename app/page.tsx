@@ -1,5 +1,6 @@
 import Header from "./_components/Header";
 import MyProficients from "./_components/MyProficients";
+import ProminentServices from "./_components/ProminentServices";
 import RecentProjects from "./_components/RecentProjects";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <MyProficients />
         <RecentProjects />
+        <ProminentServices />
       </main>
     </>
   );

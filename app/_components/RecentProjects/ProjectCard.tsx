@@ -14,7 +14,7 @@ export default function ProjectCard({
   demoLink,
 }: ProjectCardProps) {
   return (
-    <div className="bg-light dark:bg-[#292929] p-6 rounded-lg shadow-xl dark:shadow-lg">
+    <div className="bg-light dark:bg-[#27282c] border border-gray-300 dark:border-none p-6 rounded-lg shadow-lg dark:shadow-lg">
       <img
         className="w-full h-48 rounded-lg mb-4"
         src="https://source.unsplash.com/random/800x600/?project1"
