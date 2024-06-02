@@ -1,6 +1,6 @@
 import { ProminentServiceItem } from "./models";
 
-const prominentServiceDarkBg = "dark:bg-[#27282c]";
+const prominentServiceDarkBg = "dark:bg-dark-700";
 
 export const prominentServices: ProminentServiceItem[] = [
   {

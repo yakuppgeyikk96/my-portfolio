@@ -3,9 +3,9 @@ import { recentProjects } from "./constants";
 
 export default function RecentProjects() {
   return (
-    <section className="container mx-auto px-6 py-64">
+    <section className="container mx-auto px-6 py-36">
       <div className="text-center mb-12">
-        <h3 className="text-4xl font-bold text-dark dark:text-light mb-8">
+        <h3 className="text-4xl font-bold text-dark-500 dark:text-light mb-8">
           Recent Projects
         </h3>
       </div>

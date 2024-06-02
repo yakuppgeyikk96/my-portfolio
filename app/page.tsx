@@ -11,6 +11,7 @@ export default function Home() {
         <MyProficients />
         <RecentProjects />
         <ProminentServices />
+        <div className="h-20"></div>
       </main>
     </>
   );

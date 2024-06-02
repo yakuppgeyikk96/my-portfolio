@@ -3,10 +3,10 @@ import { myProficients } from "./constants";
 
 export default function MyProficients() {
   return (
-    <section className="mx-auto px-16 py-24 bg-gray-200 dark:bg-[#292929] rounded-lg">
+    <section className="mx-auto px-16 py-36 rounded-lg">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h3 className="text-4xl text-dark dark:text-light font-semibold mb-8">
+          <h3 className="text-4xl text-dark-500 dark:text-light font-semibold mb-8">
             My Proficients
           </h3>
           {/* <div className="flex justify-center mt-4">

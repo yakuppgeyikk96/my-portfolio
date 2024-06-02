@@ -2,20 +2,20 @@ import SocialMediaLinks from "../SocialMediaLinks";
 
 export default function Header() {
   return (
-    <header className="container mx-auto pt-48 pb-64 flex items-center justify-between relative">
+    <header className="container mx-auto pt-48 pb-44 flex items-center justify-between relative">
       <div className="w-1/2">
-        <h1 className="text-5xl font-extrabold text-primary">
+        <h1 className="text-5xl font-extrabold text-primary-400">
           Hello, I am John Doe
         </h1>
-        <h2 className="text-3xl text-primary-light dark:text-gray-300 my-8">
+        <h2 className="text-3xl text-primary-300 dark:text-gray-300 my-8">
           A Passionate Web Designer
         </h2>
-        <p className="text-lg text-dark dark:text-light my-8 max-w-xl">
+        <p className="text-lg text-dark-500 dark:text-light my-8 max-w-xl">
           Welcome to my portfolio! I specialize in creating beautiful and
           functional websites. Below you can find some of my recent work.
         </p>
         <SocialMediaLinks />
-        <button className="bg-primary text-white my-8 py-2 px-4 rounded-md hover:bg-primary-light transition duration-300">
+        <button className="bg-primary-400 text-white my-8 py-2 px-4 rounded-md hover:bg-primary-300 transition duration-300">
           Learn More
         </button>
       </div>

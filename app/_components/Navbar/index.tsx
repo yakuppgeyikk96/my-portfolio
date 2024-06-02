@@ -6,11 +6,11 @@ import NavbarActions from "./NavbarActions";
 
 export default function Navbar() {
   return (
-    <nav className="bg-light fixed top-0 z-50 w-full dark:bg-dark shadow-lg flex justify-between items-center px-6 py-8">
+    <nav className="bg-light fixed top-0 z-50 w-full dark:bg-dark-500 border-b border-gray-200 dark:border-dark-400 flex justify-between items-center px-6 py-8">
       <div className="flex w-full container mx-auto items-center justify-between">
         <Link href="/" legacyBehavior>
-          <a className="text-2xl font-bold hover:text-primary transition duration-300">
-            <div className="bg-primary p-4 rounded-full tracking-widest">
+          <a className="text-2xl font-bold">
+            <div className="bg-primary-400 p-4 rounded-full tracking-widest">
               YG
             </div>
           </a>
