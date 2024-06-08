@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 export default function NavbarActions() {
   return (
     <div className="flex gap-8 ml-8">
@@ -20,6 +22,9 @@ export default function NavbarActions() {
       >
         <i id="theme-icon" className="fas fa-globe text-2xl"></i>
       </button>
+      <Button size="lg" onClick={() => console.log("Language")}>
+        Login
+      </Button>
     </div>
   );
 }
